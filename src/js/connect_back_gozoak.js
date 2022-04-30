@@ -20,11 +20,11 @@ function writeGozoak(element){
         <   <div class="ogik">
             <div class="container">
                 <div class="row">
-                  <div class="col-md-3 d-flex justify-content-center text-center col-sm-12 d-flex justify-content-center text-center col-xs-12 d-flex justify-content-center text-center">
+                  <div class="col-md-3 d-flex justify-content-center text-justify col-sm-12 d-flex justify-content-center text-justify col-xs-12 d-flex justify-content-center text-justify">
                     <img clas="img-responsive" src="img/ogik/txuriBorobila.png" alt="" style="max-width: 100%">
                   </div>
-                  <div class="col-md-9 d-flex justify-content-center text-center col-sm-12 d-flex justify-content-center text-center col-xs-12 d-flex justify-content-center text-center">
-                    <h2>${gozoa_title}</h2>
+                  <div class="col-md-9 d-flex justify-content-center text-justify col-sm-12 d-flex justify-content-center text-justify col-xs-12 d-flex justify-content-center text-justify">
+                    <h2 style="text-align: center">${gozoa_title}</h2>
                     <p>
                         ${gozoa_deskribapena}
                   </div>
