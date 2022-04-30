@@ -12,11 +12,10 @@ function getBreads(){
 
 function writeBreads(element){
         var bread_div = document.getElementById("eguneroko-ogien-zerrenda")
-        console.log(element.attributes)
         var bread = element.attributes
         var bread_title = bread.titulua
         var bread_deskribapena = bread.deskribapena
-        bread_div.innerHTML =
+        bread_div.innerHTML +=
         `
         <div class="ogik">
                 <div class="container">
