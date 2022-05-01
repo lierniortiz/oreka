@@ -109,8 +109,85 @@
         <!---------------------------------------------------------------------->
         <!-- FORMULARIOA -->
         <!---------------------------------------------------------------------->
+        <form>
+        <ul class="form-style-1">
+            <li><label>INFORMAZIOA <span class="required">*</span></label><input type="text" name="izena" class="field-divided" placeholder="Izena" /> <input type="text" name="telefonoa" class="field-divided" placeholder="Telefonoa" /> <input type="date" name="data" class="field-divided" placeholder="Noizko?" /></li>
+            <li>
+                <label>OGIAK</label>
+                <hr>
+                <select name="field4" class="field-select">
+                    <option value="Advertise">Advertise</option>
+                    <option value="Partnership">Partnership</option>
+                    <option value="General Question">General</option>
+                </select>
+                <select name="field4" class="field-select">
+                    <option value="Advertise">Advertise</option>
+                    <option value="Partnership">Partnership</option>
+                    <option value="General Question">General</option>
+                </select>
+            </li>
+            <li>
+                <label>GOZOAK</label>
+                <hr>
+                <select name="field4" class="field-select">
+                <option value="Advertise">Advertise</option>
+                <option value="Partnership">Partnership</option>
+                <option value="General Question">General</option>
+                </select>
+                <select name="field4" class="field-select">
+                <option value="Advertise">Advertise</option>
+                <option value="Partnership">Partnership</option>
+                <option value="General Question">General</option>
+                </select>
+            </li>
+             <li id="beste_batzuk">
+                <label>BESTE BATZUK </label>
+                <hr>
+                 <div class="row">
+                     <div class="col-md-3 col-sm-3 col-xs-12">
+                         <p>Txuria</p>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12">
+                         <p>1kg</p>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12">
+                         <p><b>1,2€</b></p>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12">
+                         <input type="button" value=" - Kendu erreserbatik">
+                     </div>
 
-        http://localhost:1337/admin/content-manager/collectionType/api::erreserbak.erreserbak?page=1&pageSize=10&sort=izena:ASC
+
+                 </div>
+                 <div style="margin-top: 10px;">
+                     <select name="field4" class="field-select">
+                        <option value="Advertise">Advertise</option>
+                        <option value="Partnership">Partnership</option>
+                        <option value="General Question">General</option>
+                    </select>
+                     <select name="field4" class="field-select">
+                        <option value="Advertise">Advertise</option>
+                        <option value="Partnership">Partnership</option>
+                        <option value="General Question">General</option>
+                    </select>
+                     19.3€
+
+
+                    <input style="margin-left: 12%;" type="button" value=" + Gehitu erreserbara">
+                 </div>
+
+            </li>
+            <li>
+                <label>OHARRAK </label>
+                <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+            </li>
+            <li id="prezioa-guztira" style="text-align: center;">
+                <p style="font-size: 20px;">GUZTIRA: 23€</p>
+                <input type="submit" value="ERRESERBATU ETA ORDAINDU" />
+            </li>
+        </ul>
+        </form>
+
 
         <!--------------------------------->
         <!----- FORMULARIOA -------->

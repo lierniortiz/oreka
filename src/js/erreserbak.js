@@ -6,7 +6,7 @@ window.onload = function(){
 
 //We get an array of ogiak
 function getBreads(){
-    fetch('http://localhost:1337/api/ogiak?eguna=guztiak')
+    fetch('http://localhost:1337/api/erreserba-aukerak?eguna=guztiak')
       .then(response => response.json())
       .then(data =>
       data.data.forEach(writeBreads))
