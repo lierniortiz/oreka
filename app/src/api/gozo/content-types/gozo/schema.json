@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gozoak",
+  "info": {
+    "singularName": "gozo",
+    "pluralName": "gozoak",
+    "displayName": "gozoak"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulua": {
+      "type": "string"
+    },
+    "deskribapena": {
+      "type": "richtext"
+    },
+    "irudia": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

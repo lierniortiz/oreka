@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "erreserba_aukerak_ogiak",
+  "info": {
+    "singularName": "erreserba-aukera-ogiak",
+    "pluralName": "erreserba-aukerak-ogiak",
+    "displayName": "Erreserba aukerak ogiak"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ogia": {
+      "type": "string"
+    },
+    "eguna": {
+      "type": "enumeration",
+      "enum": [
+        "guztiak",
+        "astelehena",
+        "asteartea",
+        "asteazkena",
+        "osteguna",
+        "ostirala"
+      ]
+    },
+    "kopurua": {
+      "type": "enumeration",
+      "enum": [
+        "erdia",
+        "osoa"
+      ]
+    },
+    "prezioa": {
+      "type": "decimal"
+    },
+    "erreserbak_ikusi": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::erreserbak-ikusi.erreserbak-ikusi",
+      "inversedBy": "erreserba_aukerak_ogiaks"
+    }
+  }
+}
