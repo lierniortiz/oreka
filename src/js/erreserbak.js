@@ -18,32 +18,11 @@ function writeBreads(element){
         var bread = element.attributes
         var bread_title = bread.titulua
         var bread_deskribapena = bread.deskribapena
-        bread_div.innerHTML +=
-        `
-        <div class="ogik">
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-3 d-flex justify-content-center text-center col-sm-12 d-flex justify-content-center text-center col-xs-12 d-flex justify-content-center text-center">
-                        <img clas="img-responsive" src="img/ogik/txuriBorobila.png" alt="" style="max-width: 100%">
-                      </div>
-                      <div class="col-md-9 d-flex justify-content-center text-justify col-sm-12 d-flex justify-content-center text-center col-xs-12 d-flex justify-content-center text-center">
-                        <h2 style="text-align: center">${bread_title}</h2>
-                        <p>
-                            ${bread_deskribapena}
-                        </p>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-        <hr>
-        `
 }
 
 
-function writeForm(){
 
-  
+function writeForm(){
   var calendar = $("#calendar");
   var date = calendar.val().split("/")
   var fecha_reserva = new Date(calendar.val())/(1000*60*60*24)
