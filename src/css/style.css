@@ -1761,7 +1761,7 @@ select{
 	border:1px solid #b8b2a0;
 	padding: 7px;
 	margin:0px;
-	width: 30%;
+	width: 24%;
 	-webkit-transition: all 0.30s ease-in-out;
 	-moz-transition: all 0.30s ease-in-out;
 	-ms-transition: all 0.30s ease-in-out;
@@ -1784,7 +1784,7 @@ select{
 	border: 1px solid #b8b2a0;
 }
 .form-style-1 .field-divided{
-	width: 33%;
+	width: 25%;
 }
 
 .form-style-1 .field-long{
@@ -1811,6 +1811,12 @@ select{
 }
 .form-style-1 .required{
 	color:red;
+}
+
+.pedido{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
 }
 
 
